@@ -73,16 +73,24 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am a modular group management bot.
+Hi {}, nama saya {}! 
+Saya adalah robot yang bisa membuatmu jatuh cinta xixi.
+Saya ada untuk menghilangkan kagalauan yang haqiqi.
+Dibuat khusus untuk menyatukan hati dua insan di telegram.
+Saya hanya robot, tapi saya bisa jatuh cinta egegege.
+━─━─━─━─━─━─━─━─━─━─━
 
-You can find my list of available commands with /help.
+▪**Managed with by:** [Om Ganteng 💯](https://t.me/AkuUserBot)
+▪**Join My Channel Official:** [TAP AKU](http://t.me/kutipankataaa)
+
+━─━─━─━─━─━─━─━─━─━─━
+
+Tekan /help untuk melihat daftar fitur saya.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a modular group management bot and help admins manage their groups. Have a look at the following for an idea of some of \
-the things I can help you with.
+Hai Kalian! Nama saya adalah *{}*.
+Saya adalah manusia robot dengan beberapa kelebihan yang menyenangkan! Silahkan lihat berikut ini untuk beberapa ide dari \ hal-hal yang bisa saya bantu..
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -100,7 +108,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-ASTRAKOBOT_IMG = "https://i.imgur.com/1oah5E2.jpg"
+ASTRAKOBOT_IMG = "https://telegra.ph/file/fd7917a973b9295402382.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 AstrakoBot is hosted on its own server and doesn't require any donations as of now but \
@@ -222,7 +230,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add AstrakoBot to your group",
+                                text="🌻 Add saya ke grup",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -230,20 +238,20 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group",
-                                url=f"https://t.me/AstrakoBotSupport",
+                                text="🍁 LOL Grup",
+                                url=f"https://t.me/caritemanjodohpacar",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Getting started guide",
-                                url="https://t.me/OnePunchUpdates/29",
+                                text="🌱 Help & Command",
+                                url=f"t.me/{dispatcher.bot.username}?start=help") 
                             )
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Source code",
-                                url="https://github.com/Astrako/AstrakoBot",
+                                text="👻 Instagram Om Ganteng",
+                                url="https://www.instagram.com/hendraputraaaaaa",
                             )
                         ],
                     ]
