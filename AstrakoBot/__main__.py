@@ -245,7 +245,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🌱 Help & Command",
-                                url=f"t.me/{dispatcher.bot.username}?start=help") 
+                                url=f"t.me/{dispatcher.bot.username}?start=help"
                             )
                         ],
                         [
