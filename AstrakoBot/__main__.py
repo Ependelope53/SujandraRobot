@@ -78,12 +78,12 @@ Saya adalah robot yang bisa membuatmu jatuh cinta xixi.
 Saya ada untuk menghilangkan kagalauan yang haqiqi.
 Dibuat khusus untuk menyatukan hati dua insan di telegram.
 Saya hanya robot, tapi saya bisa jatuh cinta egegege.
-━─━─━─━─━─━─━─━─━─━─━
+⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿⟿
 
 ▪**Managed with by:** [Om Ganteng 💯](https://t.me/AkuUserBot)
 ▪**Join My Channel Official:** [TAP AKU](http://t.me/kutipankataaa)
 
-━─━─━─━─━─━─━─━─━─━─━
+⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳⬳
 
 Tekan /help untuk melihat daftar fitur saya.
 """
