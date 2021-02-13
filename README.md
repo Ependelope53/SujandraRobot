@@ -5,11 +5,11 @@
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Originally a SaitamaRobot fork, AstrakoBot evolved further and was built to be more robust. 
+Originally a SaitamaRobot fork, Sujandra Robot evolved further and was built to be more robust. 
 
-Can be found on telegram as [AstrakoBot](https://t.me/AstrakoBot).
+Can be found on telegram as [SujandraRobot](https://t.me/SujandraRobot).
 
-The Support group can be reached out to at [AstrakoBotSupport](https://t.me/AstrakoBotSupport), where you can ask for help about [AstrakoBot](https://t.me/AstrakoBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support Channel [Kutipan Kata](https://t.me/kutipankataaa), where you can ask for help about [Sujandra Robot](https://t.me/SujandraRobot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 News channel as at [One Punch Updates](https://t.me/OnePunchUpdates) 
 
