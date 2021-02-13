@@ -227,36 +227,26 @@ def start(update: Update, context: CallbackContext):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                        [
-                            InlineKeyboardButton(
-                                text="🌻 Add saya ke grup",
-                                url="t.me/{}?startgroup=true".format(
-                                    context.bot.username
-                                ),
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="🍁 LOL Grup",
-                                url=f"https://t.me/caritemanjodohpacar",
-                            ),
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="🌱 Help & Command",
-                                url=f"t.me/{dispatcher.bot.username}?start=help"
-                            )
-                        ],
-                        [
-                            InlineKeyboardButton(
-                                text="👻 Instagram Om Ganteng",
-                                url="https://www.instagram.com/hendraputraaaaaa",
-                            )
-                        ],
-                    ]
-                ),
-            )
+                    [[
+                         InlineKeyboardButton(
+                             text="🌻 Add saya ke grup",
+                             url="t.me/{}?startgroup=true".format(
+                                 context.bot.username)) 
+                     ],
+                     [
+                         InlineKeyboardButton(
+                             text="🍁 LOL Grup",
+                             url=f"https://t.me/caritemanjodohpacar"),
+                        
+                         InlineKeyboardButton(
+                             text="🌱 Help & Command",
+                             url=f"t.me/{dispatcher.bot.username}?start=help") 
+                     ],
+                     [
+                         InlineKeyboardButton(
+                             text="👻 Instagram Om Ganteng",
+                             url="https://www.instagram.com/hendraputraaaaaa") 
+                     ]])) 
     else:
         update.effective_message.reply_text(
             "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
