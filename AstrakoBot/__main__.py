@@ -235,8 +235,8 @@ def start(update: Update, context: CallbackContext):
                      ],
                      [
                          InlineKeyboardButton(
-                             text="🍁 LOL Grup",
-                             url=f"https://t.me/caritemanjodohpacar"),
+                             text="🍁 Bot Musik",
+                             url=f"https://t.me/SujandraMusicBot"),
                         
                          InlineKeyboardButton(
                              text="🌱 Help & Command",
